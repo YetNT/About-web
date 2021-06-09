@@ -1,0 +1,1 @@
+console.log("This is fake, it did not give you vbucks/robux nor did i steal your account information.")
