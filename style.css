@@ -1,0 +1,111 @@
+html {
+  background-color: rgb(0, 140, 140)
+}
+h1 {
+  font-size: 35px;
+  background-color: blue;
+  font-family: cursive;
+  padding: 10px;
+  text-align:center;
+  border-radius: 20px
+}
+h2 {
+  font-size: 29px;
+  font-family: sans-serif, Arial;
+  text-align: center;
+}
+p {
+  font-size: 27px;
+  font-family: sans-serif, Arial;
+  text-align: center;
+}
+
+a:link{
+  color:white
+}
+a:visited{
+  color:white
+}
+a:hover{
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+a{
+  text-decoration: none
+}
+
+red{
+  color: red;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+blue{
+  color: blue;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+yellow{
+  color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+big-title{
+  font-size: 1.5cm;
+  text-decoration: underline;
+}
+medium-title{
+  font-size: 1cm;
+  color: #8a5656;
+}
+sec-title{
+  font-size: 0.9cm;
+  text-decoration: underline;
+}
+user{
+  height: 20px;
+  line-height: 20px;
+}
+img{
+  border-radius: 10px
+}
+
+socials{
+  text-align: center
+}
+
+
+soc-text{
+  font-family: sans-serif;
+  font-size: 25px
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+tr:nth-child(even) {
+  background-color: rgb(0, 163, 163)
+}
+td:hover {
+  background-color: #00d1d1;
+}
+table {
+  text-align: center;
+  width:80%
+}
+@media screen and (max-width: 800px) {
+  table {
+    font-size: 15px;
+    width: 100%;
+  }
+  big-title {
+    font-size: 1cm;
+  }
+  p {
+    font-size: 24px;
+  }
+}
+
+button {
+  border-radius: 4px;
+}
+
+button:hover {
+  transform: scale(1.5) perspective(1px)
+}
